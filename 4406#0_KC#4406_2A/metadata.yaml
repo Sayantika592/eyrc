@@ -1,0 +1,68 @@
+rosbag2_bagfile_information:
+  version: 5
+  storage_identifier: sqlite3
+  duration:
+    nanoseconds: 312117813546
+  starting_time:
+    nanoseconds_since_epoch: 1762610211295423582
+  message_count: 15410
+  topics_with_message_count:
+    - topic_metadata:
+        name: /_ros_node_topic_info
+        type: std_msgs/msg/String
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 62
+    - topic_metadata:
+        name: clock
+        type: rosgraph_msgs/msg/Clock
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 3122
+    - topic_metadata:
+        name: _ros_status
+        type: std_msgs/msg/String
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 0
+    - topic_metadata:
+        name: _shape_info
+        type: std_msgs/msg/String
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 3199
+    - topic_metadata:
+        name: detection_status
+        type: std_msgs/msg/String
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 0
+    - topic_metadata:
+        name: odom
+        type: geometry_msgs/msg/PoseStamped
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 3122
+    - topic_metadata:
+        name: cmd_vel
+        type: geometry_msgs/msg/Twist
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 2783
+    - topic_metadata:
+        name: tf
+        type: geometry_msgs/msg/TransformStamped
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 3122
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - my_bag_0.db3
+  files:
+    - path: my_bag_0.db3
+      starting_time:
+        nanoseconds_since_epoch: 1762610211295423582
+      duration:
+        nanoseconds: 312117813546
+      message_count: 15410
